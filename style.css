@@ -1,0 +1,213 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+.attribution {
+    margin-top: 1.2rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.recipe-card {
+    background-color: white;
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+}
+
+.description {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.prep-time {
+    background: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.prep-time h3 {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(332, 51%, 32%);
+    padding-left: 13px;
+}
+
+.prep-time ul {
+    list-style: none;
+    color: hsl(30, 10%, 34%);
+    padding-left: 1.5rem;
+}
+
+.prep-time ul li {
+    padding-bottom: 10px;
+    padding-left: 1.5rem;
+}
+
+.prep-time ul li::marker {
+    color: hsl(332, 51%, 32%);
+    content: "▪";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.ingred h2 {
+    color: hsl(14, 45%, 36%);
+    padding-left: 1rem;
+}
+
+.ingred ul {
+    list-style: none;
+    color: hsl(30, 10%, 34%);
+    padding-left: 1.5rem;
+}
+
+.ingred ul li {
+    padding-bottom: 10px;
+    padding-left: 1.5rem;
+}
+
+.ingred ul li::marker {
+    content: "▪";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+hr {
+    border: 0;
+    height: 0.5px;
+    width: 94%;
+    background-color: hsla(32, 10%, 34%, 0.161);
+}
+
+.Instructions h2 {
+    color: hsl(14, 45%, 36%);
+    padding-left: 1rem;
+}
+
+.Instructions ol {
+    color: hsl(30, 10%, 34%);
+    padding-left: 2.5rem;
+}
+
+.Instructions ol li {
+    padding-bottom: 10px;
+    padding-left: 1.5rem;
+}
+
+.Instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.Nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    padding-left: 1rem;
+}
+
+.Nutrition p {
+    padding-left: 1rem;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 1.2rem;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.nutrition-table th {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+
+.nutrition-table td {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table tr:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 0px;
+    }
+
+    .recipe-card {
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .recipe-image {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .prep-time,
+    .description,
+    h1,
+    .ingred,
+    .Instructions,
+    .Nutrition,
+    .attribution {
+        margin: 0 1.5rem 1rem 1.5rem;
+    }
+
+}
