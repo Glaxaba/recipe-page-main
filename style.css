@@ -62,11 +62,12 @@ h3 {
     margin-bottom: 15px;
 }
 
-.prep-time h3 {
+.prep-time h2 {
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    font-size: 1.17em;
     color: hsl(332, 51%, 32%);
     padding-left: 13px;
 }
